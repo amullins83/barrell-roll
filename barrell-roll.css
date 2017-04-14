@@ -1,0 +1,13 @@
+.barrell-roll {
+	animation: barrell-roll 1s;
+}
+
+@keyframes barrell-roll
+{
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

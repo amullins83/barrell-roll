@@ -1,0 +1,12 @@
+{
+	"name": "Barrell Roll",
+	"manifest_version": 2,
+	"version": "0.0.1",
+	"content_scripts": [
+		{
+			"matches": ["*://*/*"],
+			"css": ["barrell-roll.css"],
+			"js": ["barrell-roll.js"]
+		}
+	]
+}
